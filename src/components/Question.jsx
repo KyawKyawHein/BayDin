@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { StateContextCustom } from '../Context/StateContext';
+import { StateContextCustom } from '../context/StateContext';
 
 const Question = (props) => {
     const { questionNo, questionName } = props;

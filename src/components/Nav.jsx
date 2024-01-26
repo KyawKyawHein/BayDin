@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import baydin from '../assets/bd.png'
-import { StateContextCustom } from '../Context/StateContext'
+import { StateContextCustom } from '../context/StateContext'
 
 const Nav = () => {
     const { state: { questionsList }, dispatch, search, setSearch } = StateContextCustom()
