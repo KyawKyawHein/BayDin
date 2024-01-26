@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Question from '../components/Question';
-import { StateContextCustom } from '../Context/StateContext';
+import { StateContextCustom } from '../context/StateContext';
 
 const Home = () => {
     const {state:{questionsList},search} = StateContextCustom()

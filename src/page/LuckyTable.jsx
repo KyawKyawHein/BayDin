@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Button from '../components/Button';
-import { StateContextCustom } from '../Context/StateContext';
+import { StateContextCustom } from '../context/StateContext';
 
 const LuckyTable = () => {
     const { state: { numbersList, question }, dispatch } = StateContextCustom()

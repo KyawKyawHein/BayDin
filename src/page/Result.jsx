@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { StateContextCustom } from '../Context/StateContext'
+import { StateContextCustom } from '../context/StateContext'
 import { Link, useNavigate } from 'react-router-dom';
 import Button from '../components/Button';
 
